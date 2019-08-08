@@ -204,4 +204,34 @@ header .logo{
     text-align: center;
 }
 
+.social{
+    text-align: center;
+    border-top: #EBEBEB solid 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.social a{
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.social a i{
+    color: #777777;
+    font-size: 14px;
+}
+
+.bottom_block{
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 47px;
+    border-top: #EBEBEB solid 1px;
+}
+
+.bottom_block p{
+    color: #9C9C9C;
+}
+
+.bottom_block p b{
+    color: #000;
+}
 
