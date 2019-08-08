@@ -161,8 +161,61 @@ header ul li a:hover{
     padding: 95px 0px;
     background-color: #F7F7F7;
 
-
 }
+
+.section_3 .container{
+    position: relative;
+    max-width: 890px;
+}
+
+.section_3 h2{
+    color: #24282F;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.section_3 h2:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #B5A263;
+    display: block;
+    margin: auto;
+    margin-top: 21px;
+}
+
+.owl-carousel .owl-item img{
+    width: auto;
+    display: inline-block;
+}
+.section_3 img{
+    text-align: center;
+}
+
+.client_text{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #24282F;
+    margin-top: 30px;
+}
+
+.client_name{
+    color: #C2B380;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    margin-top: 35px;
+}
+
+.client_job{
+    color: #070707;
+    font-size: 11px;
+    margin-top: 12px;
+}
+
 
 .section_4{
     background-color: #2B2F35;
@@ -215,7 +268,7 @@ header ul li a:hover{
 
 .block_3{
     float: right;
-    width: 238px;
+    width: 230px;
     text-align: left;
     margin-left: 130px;
 }
@@ -238,7 +291,7 @@ header ul li a:hover{
     font-size: 11px;
     background-color: transparent;
     border: #5A5E65 solid 1px;
-   width: 230px;
+   width: 208px;
 }
 
 .block_3 form button{
@@ -306,5 +359,60 @@ header ul li a:hover{
     display: block;
     content: "";
     clear: both;
+
+}
+
+.owl-carousel div{
+    text-align: center;
+}
+
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled{
+    display: block;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    outline: none;
+    font-size: 15px;
+    border: transparent solid 2px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: 0px;
+    top: 50%;
+    position: absolute;
+    outline: none;
+    font-size: 15px;
+    border: transparent solid 2px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.owl-carousel .owl-nav button.owl-next:hover{
+    border: #2B2F35 solid 2px;
+    border-radius: 50%;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    border: #2B2F35 solid 2px;
+    border-radius: 50%;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
 
 }
