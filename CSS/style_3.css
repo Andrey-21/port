@@ -51,10 +51,17 @@ header{
     margin-left: 47px;
 }
 
+
 .menu ul li{
     list-style: none;
     display: inline-block;
     float: right;
+}
+
+.container:after{
+    display: block;
+    content: "";
+    clear: both;
 }
 
 .menu ul li a{
@@ -74,11 +81,6 @@ header{
     color: #000;
 }
 
-.container:after{
-    display: block;
-    content: "";
-    clear: both;
-}
 
 .section_1{
     background-image: url(../images/fon_3.png);
