@@ -99,6 +99,8 @@ header{
     max-width: 700px;
     margin: 0 auto;
     margin-top: 260px;
+    font-family: 'MyriadProRegular';
+    letter-spacing: 10px;
 }
 
 .sentence{
@@ -109,6 +111,7 @@ header{
     text-align: center;
     margin-top: 38px;
     margin-bottom: 280px;
+    font-family: 'MyriadProRegular';
 }
 
 .owl-carousel .owl-nav button.owl-prev{
