@@ -156,6 +156,30 @@ header ul li a:hover{
     color: #52565B;
     text-transform: uppercase;
     border-radius: 30px;
+    cursor: pointer;
+}
+
+.ui-dialog .ui-dialog-titlebar{
+    background-color: #000;
+    text-align: center;
+    max-width: 100%;
+}
+
+.ui-widget.ui-widget-content{
+    border: none;
+    background-color: yellow;
+
+}
+.element.style{
+    height: auto;
+    width: 750px;
+    top: 709px;
+    left: 272px;
+    display: block;
+}
+
+.ui-dialog .ui-dialog-title{
+    color: #fff;
 }
 
 .section_3{
