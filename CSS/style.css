@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+    url('../fonts/MyriadProRegular.woff2') format('woff2'),
+    url('../fonts/MyriadProRegular.woff') format('woff'),
+    url('../fonts/MyriadProRegular.ttf') format('truetype'),
+    url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -159,27 +169,109 @@ header ul li a:hover{
     cursor: pointer;
 }
 
-.ui-dialog .ui-dialog-titlebar{
+
+
+.ui-dialog{
+    padding: 0px;
+    width: 750px;
+    border-radius: 20px;
+}
+
+.ui-corner-all{
+    border-top-right-radius: 21px;
+    border-top-left-radius: 21px;
+}
+
+.ui-widget-header{
     background-color: #000;
     text-align: center;
-    max-width: 100%;
+    color: #FFFFFF;
 }
-
-.ui-widget.ui-widget-content{
+.ui-dialog-titlebar-close{
+    background-color: transparent;
     border: none;
-    background-color: yellow;
-
-}
-.element.style{
-    height: auto;
-    width: 750px;
-    top: 709px;
-    left: 272px;
-    display: block;
+    outline: none;
 }
 
-.ui-dialog .ui-dialog-title{
+.ui-button:focus{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+.dialog_form{
+    width: 600px;
+   margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+
+.dialog_form label{
+    font-size: 20px;
+    color: #363636;
+    text-transform: uppercase;
+    font-family: 'MyriadProRegular';
+    display: inline-block;
+    width: 130px;
+}
+
+.dialog_form input{
+    width: 385px;
+    line-height: 60px;
+    border: 1px solid #B7B7B7;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'MyriadProRegular';
+    display: inline-block;
+    margin-left: 67px;
+
+}
+
+.password{
+    min-width: 525px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000;
+    outline: none;
+    border: none;
+    background-color: #B8B8B8;
+    border-radius: 5px;
+    margin-top: 42px;
+    margin-left: 20px;
+}
+
+.login_facebook{
+    min-width: 525px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
     color: #fff;
+    outline: none;
+    border: none;
+    background-color: #4966A5;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.login_facebook i{
+    margin-right: 15px;
+}
+
+.dialog_form span{
+    display:block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+.ui-dialog-content .ui-widget-content{
+    height: auto;
 }
 
 .section_3{

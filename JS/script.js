@@ -30,7 +30,9 @@ $( function() {
         hide: {
             effect: "explode",
             duration: 1000
-        }
+        },
+        width: 750,
+        resizable: false,
     });
 
     $( "#opener" ).on( "click", function() {
