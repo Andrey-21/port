@@ -213,6 +213,7 @@ header ul li a:hover{
     text-transform: uppercase;
     font-family: 'MyriadProRegular';
     display: inline-block;
+    float: left;
     width: 130px;
 }
 
@@ -223,9 +224,15 @@ header ul li a:hover{
     padding-right: 15px;
     padding-left: 15px;
     font-family: 'MyriadProRegular';
-    display: inline-block;
-    margin-left: 67px;
+    float: right;
+    margin-right: 40px;
 
+}
+
+.dialog_form:after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .password{
