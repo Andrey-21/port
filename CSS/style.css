@@ -52,6 +52,7 @@ header ul li a{
     border-bottom: transparent solid 2px;
     padding-right: 10px;
     padding-left: 10px;
+    font-family: 'MyriadProRegular';
 }
 
 header ul li a:hover{
@@ -72,12 +73,14 @@ header ul li a:hover{
     color: #fff;
     font-size: 26px;
     margin-bottom: 16px;
+    font-family: 'MyriadProRegular';
 
 }
 
 .section1 p{
     font-size: 14px;
     color: #fff;
+    font-family: 'MyriadProRegular';
 }
 
 .section_2{
@@ -94,6 +97,7 @@ header ul li a:hover{
     text-align: center;
     padding-bottom: 21px;
     margin-top: 121px;
+    font-family: 'MyriadProRegular';
 }
 
 .section_2 h2:after{
@@ -136,6 +140,7 @@ header ul li a:hover{
     margin-left: 10px;
     margin-top: 20px;
     display: block;
+    font-family: 'MyriadProRegular';
 }
 
 .user_job{
@@ -144,6 +149,7 @@ header ul li a:hover{
     font-weight: 600;
     color: #BBA96F;
     margin-left: 10px;
+    font-family: 'MyriadProRegular';
 }
 .user:after{
     display: block;
@@ -167,6 +173,7 @@ header ul li a:hover{
     text-transform: uppercase;
     border-radius: 30px;
     cursor: pointer;
+    font-family: 'MyriadProRegular';
 }
 
 
@@ -225,7 +232,7 @@ header ul li a:hover{
     padding-left: 15px;
     font-family: 'MyriadProRegular';
     float: right;
-    margin-right: 40px;
+    margin-right: 22px;
 
 }
 
@@ -235,7 +242,7 @@ header ul li a:hover{
     clear: both;
 }
 
-.password{
+button.password{
     min-width: 525px;
     line-height: 60px;
     text-align: center;
@@ -247,7 +254,7 @@ header ul li a:hover{
     background-color: #B8B8B8;
     border-radius: 5px;
     margin-top: 42px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .login_facebook{
@@ -262,7 +269,7 @@ header ul li a:hover{
     background-color: #4966A5;
     margin-top: 30px;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .login_facebook i{
@@ -275,6 +282,7 @@ header ul li a:hover{
     text-transform: uppercase;
     margin-top: 30px;
     font-weight: 900;
+    font-family: 'MyriadProRegular';
 }
 
 .ui-dialog-content .ui-widget-content{
@@ -298,6 +306,7 @@ header ul li a:hover{
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 21px;
+    font-family: 'MyriadProRegular';
 }
 
 .section_3 h2:after{
@@ -324,6 +333,7 @@ header ul li a:hover{
     font-size: 12px;
     color: #24282F;
     margin-top: 30px;
+    font-family: 'MyriadProRegular';
 }
 
 .client_name{
@@ -332,12 +342,14 @@ header ul li a:hover{
     text-align: center;
     display: block;
     margin-top: 35px;
+    font-family: 'MyriadProRegular';
 }
 
 .client_job{
     color: #070707;
     font-size: 11px;
     margin-top: 12px;
+    font-family: 'MyriadProRegular';
 }
 
 
@@ -362,12 +374,14 @@ header ul li a:hover{
     font-size: 13px;
     color: #938658;
     font-weight: 600;
+    font-family: 'MyriadProRegular';
 }
 
 .block_1 p{
     font-size: 11px;
     color: #6E7279;
     margin-top: 25px;
+    font-family: 'MyriadProRegular';
 
 }
 
@@ -381,12 +395,14 @@ header ul li a:hover{
     font-size: 13px;
     color: #938658;
     font-weight: 600;
+    font-family: 'MyriadProRegular';
 }
 
 .block_2 p{
     font-size: 11px;
     color: #6E7279;
     margin-top: 25px;
+    font-family: 'MyriadProRegular';
 
 }
 
@@ -401,6 +417,7 @@ header ul li a:hover{
     font-size: 13px;
     color: #938658;
     font-weight: 600;
+    font-family: 'MyriadProRegular';
 }
 
 .block_3 form{
@@ -416,6 +433,7 @@ header ul li a:hover{
     background-color: transparent;
     border: #5A5E65 solid 1px;
    width: 208px;
+
 }
 
 .block_3 form button{
@@ -428,6 +446,7 @@ header ul li a:hover{
     width: 230px;
     border: none;
     margin-top: 18px;
+    font-family: 'MyriadProRegular';
 }
 
 .container_button:after{
