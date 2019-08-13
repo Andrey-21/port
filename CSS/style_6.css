@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+    url('../fonts/MyriadProRegular.woff2') format('woff2'),
+    url('../fonts/MyriadProRegular.woff') format('woff'),
+    url('../fonts/MyriadProRegular.ttf') format('truetype'),
+    url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+header{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #FFFFFF;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.container img{
+    float: left;
+}
+
+.menu button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #777777;
+    font-size: 17px;
+    display: inline;
+    float: right;
+    margin-left: 47px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.container:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 17px;
+    margin-left: 47px;
+    font-family: 'MyriadProRegular';
+
+}
+.menu ul li a:hover{
+    color: #000;
+}
+
+.menu button:hover{
+    color: #000;
+}
+
+.section_1{
+    background-image: url(../images/fon_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.headline{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 55px;
+    font-size: 45px;
+    display: inline-block;
+    padding: 0px 35px;
+    background-color: #000;
+    font-family: 'MyriadProRegular';
+    letter-spacing: 10px;
+}
+
+.buttonline{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 10px;
+    display: block;
+    margin-top: 45px;
+    font-family: 'MyriadProRegular';
+
+}
+
+.about .container img{
+    float: left;
+    margin-top: 70px;
+}
+
+.information{
+    max-width: 530px;
+    float: right;
+    text-align: left;
+    font-family: 'MyriadProRegular';
+    padding-top: 80px;
+
+}
+.information .information_story h2{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+
+.information .information_story p{
+    margin-top: 44px;
+    color: #777777;
+    line-height: 25px;
+}
+
+
+.information  .information_skills h2{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 44px;
+}
+.information  .information_skills img{
+    margin-top: 44px;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .inner{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 10px;
+    color: #000;
+    font-family: 'MyriadProRegular';
+    margin-top: 100px;
+}
+.container .inner_text{
+    font-size: 15px;
+    color: #777777;
+    text-align: center;
+    max-width: 590px;
+    font-family: 'MyriadProRegular';
+    margin: 0 auto;
+    margin-top: 44px;
+    line-height: 25px;
+
+}
+
+.container .user{
+    max-width: 358px;
+    float: right;
+    margin-left: 32px;
+    margin-top: 55px;
+    background-color: #FFFFFF;
+    font-family: 'MyriadProRegular';
+}
+
+.container .user:last-of-type{
+    margin-left: 0px;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.user img{
+    margin-bottom: 35px;
+}
+
+.user .name{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: left;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.user .job{
+    font-size: 15px;
+    margin-top: 13px;
+    color: #777777;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.user .text{
+    font-size: 12px;
+    margin: 10px 33px 30px;
+    color: #777777;
+    line-height: 25px;
+}
+footer{
+    background-color: #FFFFFF;
+    max-width: 100%;
+    margin-top: 77px;
+}
+
+footer .logo{
+    padding-top: 65px;
+    padding-bottom: 44px;
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+    border-top: #EBEBEB solid 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.social a{
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.social a i{
+    color: #777777;
+    font-size: 14px;
+}
+
+.bottom_block{
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 47px;
+    border-top: #EBEBEB solid 1px;
+}
+
+.bottom_block p{
+    color: #9C9C9C;
+    font-family: MyriadProRegular;
+}
+
+.bottom_block p b{
+    color: #000;
+
+}
